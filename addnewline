@@ -1,0 +1,7 @@
+#! /bin/bash
+
+for file in 'ls *.cc' do
+
+echo " " >> ${file}
+
+done

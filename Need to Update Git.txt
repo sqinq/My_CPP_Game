@@ -1,0 +1,14 @@
+need to change
+main.cc is now playGame
+
+
+
+
+
+need to add again 
+floor, stairs
+
+
+
+
+need to recompile

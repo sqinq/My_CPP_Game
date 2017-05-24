@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for file in `ls *.h`; do
+	echo "" >> $file
+done

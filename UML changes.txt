@@ -1,0 +1,29 @@
+UML changes
+
+notifyDisplay should have arguments
+no more init, everything done by constructor
+getEnemy accepts no parameters
+no more chamber parameter for enemies
+added double dispatch for enemies taking damage
+for character it'd be nice to have a constructor accepting attack, defence, health as parameters
+character fields should be protected (so enemy can access them)
+calculateDamage method added to enemy for the completely generic calculation
+no getAtk needed in enemy subclasses since it's in character?
+take out attack parameter in the takeDamage, and we also double dispatched it
+add a changeHP(int) method to character
+
+have rowInRange and columnInRange methods
+Player * player in floor should be Playable *
+add a move() method to enemy (dragon won't call) but merchant and moveable enemies use
+and remove move() from generic character
+add bool tryToAttack() in enemy
+add string readCardinal() to floor
+add bool validCardinalMove(string cardinal) to floor
+add getNewX(int x, string input) and getNewY(int y, string input) to floor
+add bool rowInRanage(int row), bool columnInRange(int column) to floor and to character
+add bool validStepTile(int x, int y) to floor
+change map to tiles
+add bool potionNearPlayer() to floor
+add various methods to view
+gold: change getGold to getValue
+add static factory method to gold

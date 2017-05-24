@@ -1,0 +1,1 @@
+Chamber-Crawler3000 (CC3k): a simplified rogue-like (a genre of video game based upon the game Rogue1 -http://en.wikipedia.org/wiki/Rogue_(video_game)).
